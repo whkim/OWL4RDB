@@ -14,6 +14,8 @@ public class Janus {
 		
 		setLookAndFeel();
 		
+		System.out.println("hello");
+		
 		JanusWindow mainWindow = new JanusWindow();
 		splash.dispose();
 		mainWindow.setVisible(true);
